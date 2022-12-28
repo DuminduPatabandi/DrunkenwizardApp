@@ -1,4 +1,11 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, bbRv, logoscssa, websitedesign, girlWhite, statbook, mia } from "../assets";
+
+export const PageLinks = [
+  {
+    id: "details",
+    title: "DETAILS",
+  },
+];
 
 export const navLinks = [
   {
@@ -54,37 +61,59 @@ export const features = [
 export const products = [
   {
     id: 1,
-    name: 'Earthen Bottle',
+    name: 'Breaking Bad RV',
+    mywork:'3D Modeling',
     href: '#',
     price: '$48',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    imageSrc: bbRv,
+    imageAlt: '3D model of Breaking Bad RV.',
   },
   {
     id: 2,
-    name: 'Nomad Tumbler',
+    name: 'SCSSA Logo',
+    mywork:'Logo Designing',
     href: '#',
     price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    imageSrc: logoscssa,
+    imageAlt: 'Logo Design of SCSSA, Universityof Kelaniya.',
   },
   {
     id: 3,
-    name: 'Focus Paper Refill',
+    name: 'Drunkenwizard Website',
+    mywork:'Web Designing',
     href: '#',
     price: '$89',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+    imageSrc: websitedesign,
+    imageAlt: 'Front-End design of Drunkenwizards website.',
   },
   {
     id: 4,
-    name: 'Machined Mechanical Pencil',
+    name: 'Statistical Book SCSSA',
+    mywork:'Magazines',
     href: '#',
     price: '$35',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    imageSrc: statbook,
+    imageAlt: 'Statistical Book design for SCSSA, University of Kelaniyaks.',
   },
-  // More products...
+  {
+    id: 5,
+    name: 'Flat Illustration of a girl',
+    mywork:'Flat Illustrations',
+    href: '#',
+    price: '$35',
+    imageSrc: girlWhite,
+    imageAlt: 'Flat illustration of a girl.',
+  },
+  {
+    id: 6,
+    name: 'Portrait of Mia Khalifa',
+    mywork:'Colorful Portraits',
+    href: '#',
+    price: '$35',
+    imageSrc: mia,
+    imageAlt: 'Portrait of Mia Khalifa.',
+  },
+
 ]
 
 export const feedback = [
