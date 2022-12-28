@@ -13,6 +13,8 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        shadows: ['Shadows Into Light', "cursive"],
+        maya: ['Jolly Lodger', 'cursive']
       },
     },
     screens: {
@@ -24,5 +26,7 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };

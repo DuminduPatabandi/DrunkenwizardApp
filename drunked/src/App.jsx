@@ -6,18 +6,26 @@ import { Navbar, Home, Details, About, Work, Contact, SneekPeak, FooterLarge, Fo
 const App = () => {
   return (
     // Navigation bar
-    <div className='bg-[#F9F9F9] w-full overflow-hidden'>
-      <div className= {`bg-white ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+    <div className=' overflow-hidden bg-white '>
+      <div className= {`${styles.paddingX} ${styles.flexCenter}  w-full`}>
+        <div className={`${styles.boxWidth} fixed mt-12`}>
           <Navbar />
         </div>
       </div>
 
       
-      <div className= {`bg-[#F9F9F9] ${styles.paddingX} ${styles.flexStart}`}>
+      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#F9F9F9] py-3 w-full`}>
         <div className={`${styles.boxWidth}`}>
           <Home />
-          <Details />
+        </div>
+      </div>
+      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#23221F] w-full`}>
+        <div className={`${styles.boxWidth}`}>
+        <Details />
+        </div>
+      </div>
+      <div className= {` ${styles.paddingX} ${styles.flexStart}  w-full`}>
+        <div className={`${styles.boxWidth}`}>
           <About />
           <Work />
           <Contact />

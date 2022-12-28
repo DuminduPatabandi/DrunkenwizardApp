@@ -11,7 +11,9 @@ import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
 import menu from "./menu.svg";
+import mymenu from "./mymenu.svg";
 import close from "./close.svg";
+import closing from "./closing.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
@@ -23,9 +25,13 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import drunkenwizard_dark from "./drunkenwizard_dark.svg";
 
 export {
   airbnb,
+  drunkenwizard_dark,
+  mymenu,
+  closing,
   bill,
   binance,
   card,
