@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, settoggle] = useState(false);
 
   return (
-    <nav className='w-full bg-white py-[1rem]  navbar'>
+    <nav className='w-full bg-white py-[1rem]  navbar '>
       
       <ul className='list-none sm:flex hidden justify-center items-center'>
 
