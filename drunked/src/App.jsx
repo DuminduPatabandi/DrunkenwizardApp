@@ -44,7 +44,7 @@ const App = () => {
         <SneekPeak />
         </div>
       </div>
-      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#23221F] w-full`}>
+      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#F9F9F9] w-full`}>
         <div className={`${styles.boxWidth}`}>
         <FooterLarge />
         </div>
