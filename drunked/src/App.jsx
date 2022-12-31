@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './style'
 
-import { Navbar, Home, Details, About, Work, Contact, SneekPeak, FooterLarge, FooterSmall} from './components'
+import { Navbar, Home, Details, About, Work, Contact, Newsletter, SneekPeak, FooterLarge, FooterSmall} from './components'
 
 const App = () => {
   return (
     // Navigation bar
     <div className=' overflow-hidden bg-white w-full'>
       <div className= {`${styles.paddingX} ${styles.flexCenter}  w-full`}>
-        <div className={`${styles.boxWidth} fixed mt-12`}>
+        <div className={`${styles.boxWidth} fixed mt-12`} style={{zIndex: 10}}>
           <Navbar />
         </div>
       </div>
@@ -34,9 +34,9 @@ const App = () => {
         <Work />
         </div>
       </div>
-      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#23221F] w-full`}>
+      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#23221f] sm:py-16 py-6 w-full`}>
         <div className={`${styles.boxWidth}`}>
-        <Contact />
+        <Newsletter />
         </div>
       </div>
       <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#23221F] w-full`}>

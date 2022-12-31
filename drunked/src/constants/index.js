@@ -5,6 +5,10 @@ export const PageLinks = [
     id: "details",
     title: "DETAILS",
   },
+  {
+    id: "newsletter",
+    title: "NEWSLETTER",
+  },
 ];
 
 export const navLinks = [

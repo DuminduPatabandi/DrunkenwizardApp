@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import {closing, mymenu} from '../assets'
 import { navLinks } from '../constants'
+import { PageLinks } from '../constants'
 
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className='w-full bg-white py-[1rem]  navbar'>
       
-      <ul className='list-none sm:flex hidden justify-center items-center '>
+      <ul className='list-none sm:flex hidden justify-center items-center'>
 
         {navLinks.map((nav, index) => (
           <li 
