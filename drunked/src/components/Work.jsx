@@ -13,7 +13,6 @@ export default function Example() {
                 <div className="aspect-w-1 group-hover:grayscale duration-700  aspect-h-1 w-full overflow-hidden  bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
                   <img
                     src={product.imageSrc}
-                    alt={product.imageAlt}
                     className="h-full w-full object-cover object-center "
                   />
                 </div>

@@ -7,7 +7,6 @@ import Contact from "./Contact";
 import Newsletter from "./Newsletter";
 import SneekPeak from "./SneekPeak";
 import FooterLarge from "./FooterLarge";
-import FooterSmall from "./FooterSmall";
 
 export {
     Navbar,
@@ -18,6 +17,5 @@ export {
     Work,
     Contact,
     SneekPeak,
-    FooterLarge,
-    FooterSmall
+    FooterLarge
 };

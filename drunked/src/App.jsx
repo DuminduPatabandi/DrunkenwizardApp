@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style'
 
-import { Navbar, Home, Details, About, Work, Contact, Newsletter, SneekPeak, FooterLarge, FooterSmall} from './components'
+import { Navbar, Home, Details, About, Work, Contact, Newsletter, SneekPeak, FooterLarge} from './components'
 
 const App = () => {
   return (
@@ -47,11 +47,6 @@ const App = () => {
       <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#F9F9F9] w-full`}>
         <div className={`${styles.boxWidth}`}>
         <FooterLarge />
-        </div>
-      </div>
-      <div className= {` ${styles.paddingX} ${styles.flexStart}  w-full`}>
-        <div className={`${styles.boxWidth}`}>
-          <FooterSmall />
         </div>
       </div>
 

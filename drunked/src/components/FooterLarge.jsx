@@ -1,28 +1,29 @@
 import React from 'react'
 import { navLinks } from '../constants'
+import { socialMedia } from '../constants'
+import { footerLinks } from '../constants'
 import {drunkenwizard_dark} from '../assets'
 
 const FooterLarge = () => (
 
-  <footer class="text-gray-600 body-font">
+  <footer class="font-montserrat text-[#838383]">
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <img src={drunkenwizard_dark} alt="site-logo" className='w-[12rem] h-[12rem] object-contain mt-32  sm:mt-10 ' />
+        <img src={drunkenwizard_dark} alt="site-logo" className='w-[12rem] h-[12rem] object-contain  ' />
       </a>
-      <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
 
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SITE LINKS</h2>
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium tracking-widest text-[1rem] mb-4">SITE LINKS</h2>
         <nav class="list-none mb-10">
         <ul className='text-gray-600 hover:text-gray-800'>
 
             {navLinks.map((nav, index) => (
               <li 
                 key={nav.id}
-                className = {`font-montserrat text-[#838383] cursor-pointer text-[.9rem] pb-2 `}>
+                className = {` cursor-pointer text-[.8rem] pb-5 `}>
 
                 <a href={`#${nav.id}`}>
                   {nav.title}
@@ -35,59 +36,53 @@ const FooterLarge = () => (
         </nav>
       </div>
 
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium tracking-widest text-[1rem] mb-4">OUR SITES</h2>
         <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
+        <ul className='text-gray-600 hover:text-gray-800'>
+
+            {footerLinks.map((nav, index) => (
+              <li 
+                key={nav.id}
+                className = {` cursor-pointer text-[.8rem] pb-5 `}>
+
+                <a href={`#${nav.id}`}>
+                  {nav.name}
+                </a>
+
+              </li>
+            ))}
+
+        </ul>
         </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium tracking-widest text-[1rem] mb-4">CATEGORIES</h2>
         <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
+        <ul className='text-gray-600 hover:text-gray-800'>
+
+            {socialMedia.map((nav, index) => (
+
+              <li>
+                  <a key={nav.id} href={nav.href}>
+                  <img
+                    src={nav.icon}
+                    className = {` cursor-pointer  text-gray-600 pb-5 `}
+                  />
+                  </a>
+
+              </li>
+
+            ))}
+
+        </ul>
         </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
+
     </div>
   </div>
+
   <div class="bg-gray-100">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Tailblocks —
