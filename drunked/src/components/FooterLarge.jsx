@@ -44,7 +44,7 @@ const FooterLarge = () => (
             {footerLinks.map((nav, index) => (
               <li 
                 key={nav.id}
-                className = {` cursor-pointer text-[.8rem] pb-5 `}>
+                className = {` cursor-pointer text-[.8rem] pb-5`}>
 
                 <a href={`#${nav.id}`}>
                   {nav.name}
