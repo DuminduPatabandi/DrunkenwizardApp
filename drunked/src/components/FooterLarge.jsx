@@ -58,17 +58,16 @@ const FooterLarge = () => (
       </div>
 
       <div class="lg:w-1/3 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium tracking-widest text-[1rem] mb-4">CATEGORIES</h2>
         <nav class="list-none mb-10">
-        <ul className='text-gray-600 hover:text-gray-800'>
+        <ul className='social'>
 
             {socialMedia.map((nav, index) => (
 
-              <li>
+              <li className=''>
                   <a key={nav.id} href={nav.href}>
                   <img
                     src={nav.icon}
-                    className = {` cursor-pointer  text-gray-600 pb-5 `}
+                    className = {` cursor-pointer  text-black pb-5 `}
                   />
                   </a>
 
