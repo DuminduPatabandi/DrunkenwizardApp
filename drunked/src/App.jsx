@@ -19,7 +19,7 @@ const App = () => {
           <Home />
         </div>
       </div>
-      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#23221F] w-full`}>
+      <div className= {` ${styles.paddingX} ${styles.flexStart} bg-[#23221F] py-20 w-full`}>
         <div className={`${styles.boxWidth}`}>
         <Details />
         </div>
