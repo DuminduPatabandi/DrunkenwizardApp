@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, bbRv, logoscssa, websitedesign, girlWhite, statbook, mia } from "../assets";
+import { people01, people02, people03, facebook, github, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, bbRv, logoscssa, websitedesign, girlWhite, statbook, mia } from "../assets";
 
 export const PageLinks = [
   {
@@ -177,11 +177,7 @@ export const footerLinks = [
 
 
 export const socialMedia = [
-  {
-    id: "insta",
-    icon: instagram,
-    href: "https://www.instagram.com/dbros_vmaker/",
-  },
+  
   {
     id: "fb",
     icon: facebook,
@@ -193,15 +189,21 @@ export const socialMedia = [
     href: "https://twitter.com/DuminduPataban3",
   },
   {
+    id: "git",
+    icon: github,
+    href: "https://github.com/DuminduPatabandi",
+  },
+  {
     id: "linkedin",
     icon: linkedin,
     href: "https://www.linkedin.com/in/dumindu-patabandi-845492157/",
   },
   {
-    id: "git",
-    icon: linkedin,
-    href: "https://github.com/DuminduPatabandi",
+    id: "insta",
+    icon: instagram,
+    href: "https://www.instagram.com/dbros_vmaker/",
   },
+ 
 ];
 
 export const clients = [

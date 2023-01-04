@@ -32,12 +32,14 @@ import statbook from "./statbook.svg";
 import girlWhite from "./girlWhite.svg";
 import mia from "./mia.svg";
 import team from "./team.jpeg";
+import github from "./github.svg";
 import drunkenwizard_dark from "./drunkenwizard_dark.svg";
 
 export {
   airbnb,
   logoscssa,
   bbRv,
+  github,
   drunkenwizard_dark,
   team,
   girlWhite,
