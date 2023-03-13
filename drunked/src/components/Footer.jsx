@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => (
 
-  <footer class="font-montserrat text-[#838383]">
+  <footer class="font-montserrat bg-[#f9f9f9] text-[#838383]">
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -82,7 +82,7 @@ const Footer = () => (
     </div>
   </div>
 
-    <div class="bg-gray-100">
+    <div class="bg-white">
         <div class="container mx-auto text-center py-4 px-5 ">
             <p class="text-gray-500 text-sm ">© 2023 Official DrunkenWizards Website —
                 <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@DrunkenWizards</a>
