@@ -1,7 +1,7 @@
 import { products } from '../constants'
 import styles from '../style'
 
-export default function Example() {
+export default function Work() {
   return (
     <section id='work'>
       <div className="">
