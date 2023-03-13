@@ -31,12 +31,15 @@ import websitedesign from "./websitedesign.svg";
 import statbook from "./statbook.svg";
 import girlWhite from "./girlWhite.svg";
 import mia from "./mia.svg";
+import beeday from "./beeday.svg";
+import binario from "./binario.svg";
 import team from "./team.jpeg";
 import github from "./github.svg";
 import drunkenwizard_dark from "./drunkenwizard_dark.svg";
 
 export {
   airbnb,
+  binario,
   logoscssa,
   bbRv,
   github,
@@ -46,6 +49,7 @@ export {
   statbook,
   websitedesign,
   mia,
+  beeday,
   mymenu,
   closing,
   bill,

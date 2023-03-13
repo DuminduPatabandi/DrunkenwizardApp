@@ -17,7 +17,7 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className = {`font-montserrat text-[#838383] hover:text-[#ed2939] duration-700 cursor-pointer text-[.7rem] mx-6`}>
+              className = {`font-montserrat text-[#838383] hover:text-[#ed2939] duration-700 cursor-pointer text-[.75rem] mx-7`}>
               <NavLink to ={nav.path}>
                 {nav.title}
               </NavLink>
