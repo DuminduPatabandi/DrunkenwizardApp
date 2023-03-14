@@ -52,30 +52,30 @@ const Contact = () => {
                                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 pt-[3rem] md:pt-[8rem] ">
                                     <div className="my-3 ">
                                         <label className=" form-label font-medium ">First name</label><br />
-                                        <input type="text" name='first_name' className=" mt-2 w-full pl-4  py-4" placeholder="First name" aria-label="First name"/>
+                                        <input type="text" name='first_name' className="outline-none focus:outline-[#9aa9d2] mb-8 focus:outline-4  mt-2 w-full pl-4  py-4" placeholder="First name" aria-label="First name"/>
                                     </div>
                                     <div className="my-3">
                                         <label className="form-label font-medium">Last name</label><br />
-                                        <input type="text" name='last_name' className=" mt-2 w-full pl-4 py-4" placeholder="Last name" aria-label="Last name"/>
+                                        <input type="text" name='last_name' className="outline-none focus:outline-[#9aa9d2] mb-8 focus:outline-4 mt-2 w-full pl-4 py-4" placeholder="Last name" aria-label="Last name"/>
                                     </div>
                                 </div>
                                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 pt-5">
                                     <div className="my-3">
                                         <label className="form-label form-label font-medium">Email Address</label><br />
-                                        <input type="text" name='user_email' className="mt-2 w-full pl-4 py-4" placeholder="Email Address" aria-label="Email"/>
+                                        <input type="text" name='user_email' className="outline-none focus:outline-[#9aa9d2] mb-8 focus:outline-4 mt-2 w-full pl-4 py-4" placeholder="Email Address" aria-label="Email"/>
                                     </div>
                                     <div className="my-3">
                                         <label className="form-label font-medium">Country</label><br />
-                                        <input type="text" name='country' className=" mt-2 w-full pl-4 py-4" placeholder="Country" aria-label="Country"/>
+                                        <input type="text" name='country' className="outline-none focus:outline-[#9aa9d2] mb-8 focus:outline-4 mt-2 w-full pl-4 py-4" placeholder="Country" aria-label="Country"/>
                                     </div>
                                 </div>
                                 <div className="pt-5 my-3">
                                     <label className="form-label font-medium">How did you find out about Drunken Wizards?</label><br />
-                                    <input type="text" name='found_on' className=" mt-2 w-full pl-4 py-4" id="formGroupExampleInput" placeholder="Just say someting :)"/>
+                                    <input type="text" name='found_on' className="outline-none focus:outline-[#9aa9d2] mb-8 focus:outline-4 mt-2 w-full pl-4 py-4" id="formGroupExampleInput" placeholder="Just say someting :)"/>
                                 </div>
                                 <div className="mb-3 pt-6 my-5">
                                     <label className="form-label font-medium">What do we need to do for you?</label><br />
-                                    <textarea name='message' className="mt-2 w-full pl-4 py-4" id="exampleFormControlTextarea1" placeholder="Type your need" rows="3"></textarea>
+                                    <textarea name='message' className="outline-none focus:outline-[#9aa9d2] mb-8 focus:outline-4 mt-2 w-full pl-4 py-4" id="exampleFormControlTextarea1" placeholder="Type your need" rows="3"></textarea>
                                 </div>
                                 <div className="pt-6 my-6 pb-32 text-center">
                                     <button  type="submit" value={send} className="bg-[#23221f] py-4 px-12 text-white hover:text-[#23221f] hover:bg-white duration-700">SEND</button>
