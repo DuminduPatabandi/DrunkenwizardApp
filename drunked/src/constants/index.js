@@ -70,7 +70,7 @@ export const features = [
 
 export const products = [
   {
-    id: 1,
+    id: 201,
     name: 'Breaking Bad RV',
     mywork:'3D Modeling',
     href: '#',
@@ -79,7 +79,7 @@ export const products = [
     imageAlt: '3D model of Breaking Bad RV.',
   },
   {
-    id: 2,
+    id: 202,
     name: 'SCSSA Logo',
     mywork:'Logo Designing',
     href: '#',
@@ -88,7 +88,7 @@ export const products = [
     imageAlt: 'Logo Design of SCSSA, Universityof Kelaniya.',
   },
   {
-    id: 3,
+    id: 203,
     name: 'Drunkenwizard Website',
     mywork:'Web Designing',
     href: '#',
@@ -97,7 +97,7 @@ export const products = [
     imageAlt: 'Front-End design of Drunkenwizards website.',
   },
   {
-    id: 4,
+    id: 204,
     name: 'Statistical Book SCSSA',
     mywork:'Magazines',
     href: '#',
@@ -106,7 +106,7 @@ export const products = [
     imageAlt: 'Statistical Book design for SCSSA, University of Kelaniyaks.',
   },
   {
-    id: 5,
+    id: 205,
     name: 'Flat Illustration of a girl',
     mywork:'Flat Illustrations',
     href: '#',
@@ -115,7 +115,7 @@ export const products = [
     imageAlt: 'Flat illustration of a girl.',
   },
   {
-    id: 6,
+    id: 206,
     name: 'Portrait of Mia Khalifa',
     mywork:'Colorful Portraits',
     href: '#',
@@ -127,6 +127,7 @@ export const products = [
 ]
 export const mygallery = [
   {
+    id: 108,
     imageSrc: beeday,
     imageAlt: 'Portrait of Mia Khalifa.',
   },
@@ -242,6 +243,7 @@ export const footerLinks = [
 
 
   {
+    id: "apebodima",
     name: "apebodima.com",
     link: "https://apebodima.com/",
   },
