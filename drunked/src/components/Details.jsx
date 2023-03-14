@@ -7,7 +7,7 @@ const Details = () => (
     <h1 className="font-maya text-center text-[4rem] text-[#F5F5F5] pt-5 pb-4">WE ARE DRUNKEN WIZARDS</h1>
       {/* <p className='font-shadows text-[#939393] text-[20px] tracking-[4.8px] text-center mt-6'>A PLACE WHERE EVERYTHING REIMAGINED.</p> */}
       <div className="description w-80 ">
-        <p class="font-Montserrat text-white text-[20px]  text-center ">WEB | APPLICATION | BRANDING
+        <p className="font-Montserrat text-white text-[20px]  text-center ">WEB | APPLICATION | BRANDING
                           PRINT | MAGAZINES | 3D-MODELING | ANIMATION | WE DO ALL THE STUFF.
                           JUST RELAX WE GOT THIS.
                           </p>

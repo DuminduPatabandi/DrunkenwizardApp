@@ -6,6 +6,7 @@ import Work from "./Work";
 import Newsletter from "./Newsletter";
 import SneekPeak from "./SneekPeak";
 import Footer from "./Footer";
+import Popup from "./Popup";
 
 export {
     Navbar,
@@ -15,5 +16,6 @@ export {
     About,
     Work,
     SneekPeak,
-    Footer
+    Footer,
+    Popup
 };
