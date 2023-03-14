@@ -35,13 +35,21 @@ import beeday from "./beeday.svg";
 import binario from "./binario.svg";
 import team from "./team.jpeg";
 import github from "./github.svg";
+import mack from "./mack.svg";
+import mug from "./mug.svg";
+import kuppiya from "./kuppiya.svg";
+import spice from "./spice.svg";
 import drunkenwizard_dark from "./drunkenwizard_dark.svg";
 
 export {
   airbnb,
   binario,
   logoscssa,
+  spice,
   bbRv,
+  mug,
+  kuppiya,
+  mack,
   github,
   drunkenwizard_dark,
   team,

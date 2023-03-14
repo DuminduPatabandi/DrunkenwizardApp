@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, binario, beeday, github, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, bbRv, logoscssa, websitedesign, girlWhite, statbook, mia } from "../assets";
+import { people01, people02, people03, facebook, mack, mug, spice, kuppiya, binario, beeday, github, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, bbRv, logoscssa, websitedesign, girlWhite, statbook, mia } from "../assets";
 
 export const PageLinks = [
   {
@@ -138,56 +138,52 @@ export const mygallery = [
   },
   {
     id: 101,
-    name: 'Breaking Bad RV',
-    mywork:'3D Modeling',
-    href: '#',
-    price: '$48',
     imageSrc: bbRv,
     imageAlt: '3D model of Breaking Bad RV.',
   },
   {
     id: 102,
-    name: 'SCSSA Logo',
-    mywork:'Logo Designing',
-    href: '#',
-    price: '$35',
     imageSrc: logoscssa,
     imageAlt: 'Logo Design of SCSSA, Universityof Kelaniya.',
   },
   {
     id: 103,
-    name: 'Drunkenwizard Website',
-    mywork:'Web Designing',
-    href: '#',
-    price: '$89',
     imageSrc: websitedesign,
     imageAlt: 'Front-End design of Drunkenwizards website.',
   },
   {
     id: 104,
-    name: 'Statistical Book SCSSA',
-    mywork:'Magazines',
-    href: '#',
-    price: '$35',
     imageSrc: statbook,
     imageAlt: 'Statistical Book design for SCSSA, University of Kelaniyaks.',
   },
   {
-    id: 104,
-    name: 'Statistical Book SCSSA',
-    mywork:'Magazines',
-    href: '#',
-    price: '$35',
+    id: 112,
     imageSrc: binario,
     imageAlt: 'Statistical Book design for SCSSA, University of Kelaniyaks.',
   },
   {
     id: 105,
-    name: 'Flat Illustration of a girl',
-    mywork:'Flat Illustrations',
-    href: '#',
-    price: '$35',
     imageSrc: girlWhite,
+    imageAlt: 'Flat illustration of a girl.',
+  },
+  {
+    id: 113,
+    imageSrc: kuppiya,
+    imageAlt: 'Campus kuppiya website.',
+  },
+  {
+    id: 114,
+    imageSrc: mack,
+    imageAlt: 'Statistical Book design for SCSSA, University of Kelaniyaks.',
+  },
+  {
+    id: 115,
+    imageSrc: mug,
+    imageAlt: 'Flat illustration of a girl.',
+  },
+  {
+    id: 116,
+    imageSrc: spice,
     imageAlt: 'Flat illustration of a girl.',
   },
 
