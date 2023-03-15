@@ -8,6 +8,7 @@ import SneekPeak from "./SneekPeak";
 import Footer from "./Footer";
 import Popup from "./Popup";
 
+
 export {
     Navbar,
     Home, 
@@ -17,5 +18,5 @@ export {
     Work,
     SneekPeak,
     Footer,
-    Popup
+    Popup,
 };
