@@ -1,18 +1,13 @@
 import styles from '../style'
 import React, { useRef, useState } from 'react';
 import emailjs, { send } from '@emailjs/browser';
-import { Popup } from '../components';
 import { NavLink, Outlet } from 'react-router-dom';
+import { Popup } from '../components'
 
 const Contact = () => {
 
-
-    // // Pop up message when message sent.
-    // const [open, setOpen] = useState(false)
-
-    // const togglePopup = () => {
-    //     setShowPopup(!open);
-    //   };
+    // Popup
+    const [openPopup, setOpenPopup] = useState(false)
 
     // Sending mails
 
@@ -20,7 +15,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
       e.preventDefault();
-  
+
       emailjs.sendForm('service_nky71do', 'template_mqzx1pa', form.current, 'FZKIfp8MpmgZ6mh2T')
         .then((result) => {
             console.log(result.text);
@@ -30,9 +25,10 @@ const Contact = () => {
         });
     };
 
+
   return (
 
-    <div className="bg-[#f9f9f9]">
+    <div  className="bg-[#f9f9f9]">
 
         <section id='contact'>
             <div className=" text-center">
@@ -78,7 +74,8 @@ const Contact = () => {
                                     <textarea name='message' className="outline-none focus:outline-[#9aa9d2] mb-8 focus:outline-4 mt-2 w-full pl-4 py-4" id="exampleFormControlTextarea1" placeholder="Type your need" rows="3"></textarea>
                                 </div>
                                 <div className="pt-6 my-6 pb-32 text-center">
-                                    <button  type="submit" value={send} className="bg-[#23221f] py-4 px-12 text-white hover:text-[#23221f] hover:bg-white duration-700">SEND</button>
+                                    <button onClick={() => {setOpenPopup(true)}} type="submit" value={send} className="bg-[#23221f] py-4 px-12 text-white hover:text-[#23221f] hover:bg-white duration-700">SEND</button>
+
                                 </div>
                             </div>
                         </div>
@@ -88,9 +85,10 @@ const Contact = () => {
 
         </section>
 
-        <div className="popup ">
-           
+        <div className="popup">
+            <Popup open={openPopup} onClose={() => setOpenPopup(false) } />
         </div>
+
       
     </div>
   )

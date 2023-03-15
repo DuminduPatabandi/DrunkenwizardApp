@@ -1,7 +1,7 @@
 import styles from './style'
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
-import { Navbar, Footer, Popup } from './components'
+import { Navbar, Footer} from './components'
 import {Homepage, Gallery, Contact, Video} from './pages'
 
 
@@ -11,9 +11,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<Navbar/>}>
       <Route index element={<Homepage/>}/>
       <Route path='gallery' element={<Gallery/>}/>
-      <Route path='contact' element={<Contact/>}>
-        <Route path='popup' element={<Popup/>}/>
-      </Route>
+      <Route path='contact' element={<Contact/>}/>
       <Route path='video' element={<Video/>}/>   
 
     </Route>
