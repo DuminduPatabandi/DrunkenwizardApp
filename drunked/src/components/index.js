@@ -7,6 +7,7 @@ import Newsletter from "./Newsletter";
 import SneekPeak from "./SneekPeak";
 import Footer from "./Footer";
 import Popup from "./Popup";
+import Sneek from "./Sneek";
 
 
 export {
@@ -19,4 +20,5 @@ export {
     SneekPeak,
     Footer,
     Popup,
+    Sneek,
 };
