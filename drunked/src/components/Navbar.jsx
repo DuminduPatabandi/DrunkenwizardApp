@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className='sm:hidden flex flex-1 justify-end items-center px-4 '>
           <img src={toggle ? closing : mymenu} alt="menu-icon" className='w-[28px] h-[28px] object-contain'
           onClick={() => settoggle((prev) => !prev)} />
-          <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-white absolute justify-center top-10 right-0 my-2 w-full h-screen sidebar `}>
+          <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-white absolute justify-center z-20 top-10 right-0 my-2 w-full h-screen sidebar `}>
           <ul className='list-none flex flex-col  justify-center items-center '>
           {navLinks.map((nav, index) => (
             <li
